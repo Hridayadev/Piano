@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    color: white;
+    background-image: url("background1.jpg");
+}
+
+.piano{
+    height: 300px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    border-top: 7px solid black;
+}
+
+.mainkeys{
+    display: flex;
+}
+
+.subkeys{
+    width: 200px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+.sano{
+    height: 12rem;
+    width: 2rem;
+    color: white;
+    background-color: black;
+}
+.middlekeys{
+    width: 270px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    text-align: center;
+}
+.thulo{
+    height: 19rem;
+    width: 4.25rem;
+    border: 5px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -5px;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    background-color:rgb(220, 219, 227) ;
+}
+
+.thicho {
+    background-color:rgb(141, 139, 154) ;
+    
+    
+  }
+
+/* @media only screen and (max-width: 450px) and (min-width: 250px)  {
+    body{
+        rotate: 90deg;
+    }
+    .piano{
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+    .thulo{
+        width: 4rem;
+    }    
+} */

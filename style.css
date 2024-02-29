@@ -60,15 +60,13 @@ body{
     
   }
 
-/* @media only screen and (max-width: 450px) and (min-width: 250px)  {
+@media only screen and (max-width: 450px) and (min-width: 250px)  {
     body{
         rotate: 90deg;
+        gap: 10px;
     }
     .piano{
-        margin-top: 10px;
-        margin-left: 130px;
-    }
-    .thulo{
-        width: 4rem;
-    }    
-} */
+        margin-left: 250px;
+        margin-bottom: 40px;
+    }   
+}
